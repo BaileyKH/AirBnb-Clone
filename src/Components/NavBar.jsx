@@ -1,11 +1,11 @@
-import './NavBar.css'
+import '../App.css'
 
 import logo from '/src/assets/airbnb 1.png'
 
 export const NavBar = () => {
     return(
         <div className="nav">
-            <img src={logo}/>
+            <img className="nav-logo" src={logo}/>
         </div>
     );
 }
