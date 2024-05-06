@@ -50,14 +50,16 @@ h2 {
     margin-bottom: 15px;
 }
 
-.cards-block {
-    display: flex;
+/* .cards-container {
     margin-left: 40px;
-}
+} */
 
-.card-container {
-    width: 175px;
+.cards-inner {
+    display: flex;
+    gap: 20px;
+    width: 100%;
     font-size: 0.75rem;
+    margin-left: 40px;
 }
 
 .card-image{
