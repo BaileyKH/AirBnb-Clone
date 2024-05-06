@@ -11,6 +11,7 @@ export const Card = () => {
             <div className="cards-inner">
             {cards.map((card) => (
                 <div key={card.id}>
+                    {!card.openSpots && <div className="card-badge">SOLD OUT</div>}
                     <img src={card.img} 
                         className="card-image"
                         alt="Image of Katie Zaferes"/>
